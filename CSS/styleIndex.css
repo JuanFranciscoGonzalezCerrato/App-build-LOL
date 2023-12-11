@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	z-index: 1;
+}
+
+
+
+#video-background {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+body:hover {
+	cursor: pointer;
+}
+
+.mensaje {
+	color: rgb(255, 255, 134);
+	font-size: 24px;
+}
+
+.centro {
+	border-radius: 25px;
+	background-color: rgba(52, 51, 51, 0.46);
+	height: 10%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+footer{
+	position: absolute;
+	top: 95%;
+}
